@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\GUI">
+      <UniqueIdentifier>{d62921b5-1ac3-4b70-b767-2e98952cda5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI">
+      <UniqueIdentifier>{693eeacf-e6d6-4ee7-8fc9-b7aea1ee4589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Util">
+      <UniqueIdentifier>{2c36de1e-0eb9-4d13-acf5-cd1d4336df24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Util">
+      <UniqueIdentifier>{d77c432f-e142-4f46-ac9a-406f52350417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Resources">
+      <UniqueIdentifier>{4f7bcb91-da35-4b79-ac32-570714c335c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Resources">
+      <UniqueIdentifier>{696e60a5-9d95-468e-8342-a8ade2dcf5e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ResourceHolder.cpp">
+      <Filter>Файлы исходного кода\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Файлы исходного кода\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="StackMenu.cpp">
+      <Filter>Файлы исходного кода\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>Файлы исходного кода\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCounter.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleKey.cpp">
+      <Filter>Файлы исходного кода\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ResourceHolder.h">
+      <Filter>Файлы заголовков\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Файлы заголовков\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="NonCopyable.h">
+      <Filter>Файлы заголовков\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="NonMovable.h">
+      <Filter>Файлы заголовков\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>Файлы заголовков\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Файлы заголовков\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="StackMenu.h">
+      <Filter>Файлы заголовков\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Файлы заголовков\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Файлы заголовков\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Файлы заголовков\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Файлы заголовков\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Файлы заголовков\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCounter.h">
+      <Filter>Файлы заголовков\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Файлы заголовков\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleKey.h">
+      <Filter>Файлы заголовков\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
